@@ -13,7 +13,8 @@ def main():
         'ruby': 'rb',
         'csharp': 'cs',
         'cpp': 'cpp',
-        'go': 'go'
+        'go': 'go',
+	'crystal': 'cr'
     }
 
     for exercise in os.listdir(path):
@@ -37,5 +38,4 @@ def main():
 
 
 if __name__ == '__main__':
-    # print(os.path.dirname(__file__))
-    main()
+     main()
